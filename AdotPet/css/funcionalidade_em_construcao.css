@@ -8,7 +8,6 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    /* font-family: 'Indie Flower', cursive;; */
 }
 
 body {
@@ -34,7 +33,7 @@ body {
     color: black;
 }
 
-.cabecalho a:hover{
+.cabecalho a:hover {
     color: #03738C;
 }
 
@@ -43,26 +42,25 @@ body {
     justify-content: space-around;
     width: 35%;
     height: auto;
-    
-
 }
+
 .cabecalho>img {
     width: 300px;
     height: auto;
 }
 
-.meio_pagina{
+.meio_pagina {
     width: auto 3em;
     display: flex;
     background-color: #03738C;
 }
 
-.foto_cachorro_pedreiro{
+.foto_cachorro_pedreiro {
     margin: 2em 3em;
     border-radius: 5em;
 }
 
-.texto_meio_pagina{
+.texto_meio_pagina {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -70,15 +68,14 @@ body {
     text-align: center;
     font-family: 'Indie Flower', cursive;
     color: #F2F2F2;
-
 }
 
-.titulo_pagina{
+.titulo_pagina {
     font-size: 3em;
     margin-bottom: 1em;
 }
 
-.explicacao_pagina{
+.explicacao_pagina {
     font-size: 2em;
 }
 
@@ -90,16 +87,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Inter', sans-serif;  
+    font-family: 'Inter', sans-serif;
 }
 
-.rodape > p{
+.rodape>p {
     color: #fff;
     font-weight: 200;
     margin-bottom: 30px;
 }
 
-.rodape > p::before{
+.rodape>p::before {
     content: "\00A9";
 }
 

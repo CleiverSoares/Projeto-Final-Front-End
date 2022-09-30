@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
+
+/* Reset CSS */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+}
+
+.cabecalho {
+    height: 150px;
+    width: auto;
+    background-color: #F29877;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-decoration: none;
+}
+
+.cabecalho>nav {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    height: auto;
+}
+
+.cabecalho a {
+    color: black;
+}
+
+.cabecalho a:hover {
+    color: #03738C;
+}
+
+.cabecalho>img {
+    width: 300px;
+    height: auto;
+}
+
+.carrosseis {
+    height: 600px;
+    width: auto;
+    background-color: #F25244;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.carrosseis button {
+    width: 350px;
+    color: #f2f2f2;
+    font-size: 25px;
+    background-color: #038C8C;
+    border: none;
+    border-radius: 15px;
+}
+
+.carrosseis button:hover {
+    background-color: #F29877;
+}
+
+.carrossel_gato {
+    height: 95%;
+    width: 45%;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    flex-direction: column;
+    font-family: 'Indie Flower', 'sans-serif';
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+.carrossel_gato button {
+    margin-top: 50px;
+
+}
+
+.carrossel_gato img {
+    width: 550px;
+    height: 420px;
+}
+
+.carrossel_cachorro {
+    height: 95%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    flex-direction: column;
+    font-family: 'Indie Flower', 'sans-serif';
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+.carrossel_cachorro button {
+    margin-top: 50px;
+}
+
+.carrossel_cachorro img {
+    width: 550px;
+    height: 420px;
+}
+
+#demo {
+    border-radius: 15px;
+}
+
+.rodape {
+    background-color: #038C8C;
+    width: auto;
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.rodape>p {
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.rodape>p::before {
+    content: "\00A9";
+}
+
+.rodape>img {
+    width: 250px;
+    height: 195px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1165px) {
+
+    #demo,
+    #demo2 {
+        width: 80%;
+        height: 20%;
+    }
+
+    .carrosseis {
+        width: 100%;
+        height: auto;
+    }
+
+    .rodape {
+        width: auto;
+        height: 14%;
+    }
+
+    .rodape>img {
+        width: 15%;
+        height: auto;
+
+    }
+
+    #consultar {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .cabecalho a {
+        display: none;
+    }
+
+    .carrosseis h2 {
+        font-size: 15pt;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    #consultar {
+        width: 80%;
+    }
+
+    .carrosseis {
+        flex-direction: column;
+    }
+}

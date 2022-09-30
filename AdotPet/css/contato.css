@@ -122,13 +122,13 @@ figure.foto-legenda figcaption {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Inter', sans-serif;  
 }
 
 .rodape > p{
     color: #fff;
     font-weight: 200;
     margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;  
 }
 
 .rodape > p::before{
@@ -139,4 +139,121 @@ figure.foto-legenda figcaption {
     width: 250px;
     height: 195px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 1052px) {
+    #imgc{
+        
+        width: 100%;
+        height: 30%;
+    }
+    #fig{
+        width: 50%;
+        height:30;
+    }
+    .cabecalho a{
+        display: none;
+        font-size: 10pt;
+    }
+    #corpo-logo{
+        width: 100%;
+        height: 30%;
+    
+    }
+    #corpo-logo h1{
+        font-size: 25pt;
+        margin-left: 50%;
+    }
+    #foto-telefone{
+       width: 10%;
+       height: auto;
+    }
+    #foto-email{
+        width: 10%;
+        height: auto;
+    }
+
+    #main{
+        width: 100%;
+        height: 40%;
+
+        
+    }
+    #main h2 {
+        font-size: 20pt;
+    }
+    .rodape{
+        width: auto;
+        height: 14%;
+    }
+    .rodape > img{
+        width: 15%;
+        height: auto;
+        
+
+    }
+    #map{
+        width: 50%;
+        height: 20%;
+        margin-bottom: 0.5em;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    #imgc{
+        
+        width: 100%;
+        height: 10%;
+        
+    }
+    #fig{
+        width: 40%;
+        height:20;
+    }
+    .cabecalho a{
+        display: none;
+        font-size: 8pt;
+    }
+    #corpo-logo{
+        width: 100%;
+        height: 20%;
+    
+    }
+    #corpo-logo h1{
+        font-size: 15pt;
+        margin-left: 50%;
+    }
+    #foto-telefone{
+       width:10%;
+       height: 10%;
+    }
+    #foto-email{
+        width: 8%;
+        height: auto;
+    }
+
+    #main{
+        width: 100%;
+        height: 30%;
+
+        
+    }
+    #main h2 {
+        font-size: 8pt;
+    }
+    .rodape{
+        width: auto;
+        height: 12%;
+    }
+    .rodape > img{
+        width: 13%;
+        height: auto;
+        
+
+    }
+    #map{
+        width: 20%;
+        height: 5%;
+        margin-bottom: 0.5em;
+    }
 }

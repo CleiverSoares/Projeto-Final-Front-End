@@ -8,11 +8,9 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    /* font-family: 'Indie Flower', cursive;; */
 }
 
 .corpoSite {
-   
     font-family: 'Indie Flower', cursive;
     font-style: normal;
     height: 100vh;
@@ -21,7 +19,6 @@
     /*Deixar o testo justificado e com indentação*/
     text-indent: 50px;
 }
-
 
 .cabecalho {
     height: 150px;
@@ -34,7 +31,6 @@
     font-family: 'Indie Flower', cursive;
     color: black;
     text-decoration: none;
-
 }
 
 .cabecalho>nav {
@@ -42,14 +38,13 @@
     justify-content: space-around;
     width: 35%;
     height: auto;
-
 }
 
-.cabecalho a{
+.cabecalho a {
     color: black;
 }
 
-.cabecalho a:hover{
+.cabecalho a:hover {
     color: #03738C;
 }
 
@@ -58,17 +53,12 @@
     height: auto;
 }
 
-
-
 .corpoSite>img {
-
     height: auto;
     width: auto;
-
 }
 
 .sobre_1 {
-
     width: 100%;
     height: auto;
     display: flex;
@@ -76,7 +66,8 @@
     flex-direction: column;
     font-family: 'Indie Flower', cursive;
 }
-.sobre_1 h1{
+
+.sobre_1 h1 {
     margin-top: 1em;
     margin-bottom: 1em;
     margin-inline: 10em;
@@ -86,19 +77,18 @@
     font-weight: bold;
 }
 
-.sobre_1 p{
+.sobre_1 p {
     margin: 0px 10em;
     font-size: 30px;
     text-align: center;
 }
 
-.sobre_1 video{
+.sobre_1 video {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .sobre_2 {
-   
     width: 100%;
     height: auto;
     display: flex;
@@ -107,10 +97,9 @@
     flex-direction: column;
     background-color: #F29877;
     font-family: 'Indie Flower', cursive;
-
 }
 
-.sobre_2 h1{
+.sobre_2 h1 {
     margin: 1em;
     border-bottom: 5px solid #03738C;
     display: flex;
@@ -137,9 +126,9 @@
     outline: none;
 }
 
-.sobre_2 p{
+.sobre_2 p {
     margin-top: 1em;
-    font-size: 30px;    
+    font-size: 30px;
 }
 
 .rodape {
@@ -150,16 +139,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Inter', sans-serif;  
+    font-family: 'Inter', sans-serif;
 }
 
-.rodape > p{
+.rodape>p {
     color: #fff;
     font-weight: 200;
     margin-bottom: 30px;
 }
 
-.rodape > p::before{
+.rodape>p::before {
     content: "\00A9";
 }
 
@@ -167,4 +156,26 @@
     width: 250px;
     height: 195px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 1065px) {
+    .cabecalho a {
+        display: none;
+    }
+
+    #dois {
+        font-size: 10pt;
+    }
+
+    @media screen and (max-width: 899px) {
+
+        #vd {
+            width: 80%;
+            height: 50%;
+        }
+
+        #um {
+            font-size: 15pt;
+        }
+    }
 }
