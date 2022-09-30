@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./img/logo.png" alt="Logotipo do AdotPet">
+        <nav class="menu">
+            <a href="./index.html">
+                <h1>Home</h1>
+            </a>
+            <a href="./galeria.html">
+                <h1>Galeria</h1>
+            </a>
+            <a href="./contato.html">
+                <h1>Contato</h1>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="informacoes">
+            <form method="post" action="mailto:nome@email.com.b " enctype="text/plain">
+
+                <h2 class="frase_formulario">Nós o informaremos quando um novo pet estiver disponível pra adoção</h2>
+                <!-- Formulário de input -->
+                <fieldset class="formulario">
+                    <label for="nome_sobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nome_sobrenome" class="input_padrao" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input_padrao" required placeholder="seuemail@dominio.com">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input_padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="" id="" cols="90" rows="5" itemid="mensagem" class="input_padrao"></textarea>
+
+                    <a href="./funcionalidade_em_construcao.html"><button type="button"
+                            class="btn btn-primary">Enviar</button></a>
+                </fieldset>
+
+            </form>
+
+            <div class="banner"><img src="img/img2_home.jpg" alt="Golden Retriever" class="foto_cachorro">
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <img src="./img/logo.png" alt="Logotipo do Adotpet">
+        <p>Copyright AdotPet - 2022</p>
+    </footer>
+
+</body>
+
+</html>
