@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
+
+/* Reset CSS */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Indie Flower', cursive;; */
+}
+
+body {
+    height: 100vh;
+    width: auto;
+}
+
+.cabecalho {
+    height: 150px;
+    width: auto;
+    background-color: #F29877;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-decoration: none;
+
+}
+
+.cabecalho>nav {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    height: auto;
+
+}
+
+.cabecalho a{
+    color: black;
+}
+
+.cabecalho a:hover{
+    color: #03738C;
+}
+
+.cabecalho>img {
+    width: 300px;
+    height: auto;
+}
+
+.banner_home {
+
+    height: auto;
+    width: 100%;
+
+}
+
+.meioPagina {
+    background-color: #03738C;
+    height: 650px;
+    width: auto;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards {
+    height: 500px;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pesquise {
+    width: 30%;
+    height: 80%;
+    /* background-color: rgb(231, 120, 120); */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: ridge 3px;
+    border-radius: 15%;
+    
+}
+.pesquise > h6 {
+    color: #FFB397;
+    font-size: 20px;
+    margin: 1em 2em;
+    text-align: center;
+}
+
+.escolha {
+    width: 30%;
+    height: 80%;
+    /* background-color: rgb(224, 138, 138); */
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: ridge 3px;
+    border-radius: 15%;
+    
+}
+
+.escolha > h6 {
+    color: #FFB397;
+    font-size: 20px;
+    margin: 1em 2em;
+    text-align: center;
+}
+
+
+.adote {
+    width: 30%;
+    height: 80%;
+    /* background-color: rgb(234, 144, 144); */
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: ridge 3px;
+    border-radius: 15%;
+}
+.adote > h6 {
+    color: #FFB397;
+    font-size: 20px;
+    margin: 1em 1em;
+    text-align: center;
+}
+
+.pesquise>img {
+    height: 100px;
+}
+
+.escolha>img {
+    height: 100px;
+}
+.adote>img {
+    height: 100px;
+}
+
+#botao1{
+height: 100px;
+width: 300px;
+border-radius: 50px;
+border: white;
+background-color: #F25244;
+font-size: 30px;
+font-weight:bolder;
+}
+
+#botao1:hover{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.texto {
+    background-color: #F25244;
+    height: 625px;
+    width: auto;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: #fff;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-around;
+
+}
+
+.imagem_2_home {
+    margin-left: 4em;
+    height: 500px;
+    border-radius: 4%;
+}
+
+.enunciado {
+    height: auto;
+    width: auto;
+    margin: 1em 3em;
+    color: #fff;
+    align-items: center;
+    font-size: xx-large;
+    border: solid 3px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.enunciado>p {
+    font-size: x-large;
+}
+/* Código footer para todas as páginas */
+.rodape {
+    background-color: #038C8C;
+    width: auto;
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;  
+}
+
+.rodape > p{
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.rodape > p::before{
+    content: "\00A9";
+}
+
+.rodape>img {
+    width: 250px;
+    height: 195px;
+    margin-top: 20px;
+}
